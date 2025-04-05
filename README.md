@@ -6,17 +6,17 @@ A powerful Bash-based automated reconnaissance toolkit for bug bounty hunters an
 # 🔍 RECON GHOST <img src="screenshot.png" width="50"> 
 
 **Enterprise-Grade Reconnaissance Toolkit**  
->*Developed by FORTIS SECURITY*  
+> *Developed by FORTIS SECURITY*  
 
 
-## 📚 Documentation
+ 📚 **Documentation**
 
 For detailed installation guides and sample scan results, see the [docs/](/docs/) directory.
 
 
 ---
 
-## 📸 ReconGhost
+# 📸 ReconGhost
 
 <img src="screenshot.png" width="900">
 
@@ -25,34 +25,34 @@ For detailed installation guides and sample scan results, see the [docs/](/docs/
 
 ## ⚙️ *Features*
 
-- 🛰️ Subdomain Enumeration (Amass + Subfinder)
-- 🔍 Live Host Detection (httpx)
-- 🔌 Port Scanning (Nmap)
-- 📂 Web Path Fuzzing (FFuF)
-- 👁️ Visual Recon (Aquatone)
-- 🛡️ Vulnerability Scanning (Nuclei)
+1. - 🛰️ Subdomain Enumeration (Amass + Subfinder)
+2. - 🔍 Live Host Detection (httpx)
+3. - 🔌 Port Scanning (Nmap)
+4. - 📂 Web Path Fuzzing (FFuF)
+5. - 👁️ Visual Recon (Aquatone)
+6. - 🛡️ Vulnerability Scanning (Nuclei)
 
 ---
 
 ## 🔗 **Installation**
 
-# Clone the repository
+ **Clone the repository**
 ```bash
 git clone https://github.com/yourusername/RECON-GHOST.git
 ```
 
-# Make scripts executable
+**Make scripts executable**
 ```bash
 cd RECON-GHOST
 chmod +x install.sh reconghost.sh
 ```
 
-# Run the installer
+**Run the installer**
 ```bash
 ./install.sh  # Installs all tools automatically
 ```
 
-🛠 Usage
+**🛠 Usage**
 ```bash
 ./reconghost.sh -d example.com -o ./scan_results [-w wordlist.txt]
 ```
@@ -73,7 +73,7 @@ chmod +x install.sh reconghost.sh
 
 
 
-🔇 Silence output:
+**🔇 Silence output:**
 ```bash
 ./reconghost.sh -d example.com -o ./scan_results [-w wordlist.txt] > /dev/null 2>&1
 ```
@@ -98,11 +98,11 @@ scan_results/
 
 
 
-📄 *License*
+### 📄 License
 > This project is licensed under the MIT License.
----
-🤝 *Contribute*
-Feel free to fork, star, and send PRs.
-Let’s build a powerful recon community together! 
+
+### 🤝 Contribute
+> Feel free to fork, star, and send PRs.
+> Let’s build a powerful recon community together! 
 
 
