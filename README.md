@@ -26,37 +26,49 @@ A powerful Bash-based automated reconnaissance toolkit for bug bounty hunters an
 
 ---
 
-## 🚀 Installation
+## 🔗 Installation
 
-```bash
+
 # Clone the repository
+```bash
 git clone https://github.com/yourusername/RECON-GHOST.git
-cd RECON-GHOST
+```
 
 # Make scripts executable
+```bash
+cd RECON-GHOST
 chmod +x install.sh reconghost.sh
+```
 
 # Run the installer
+```bash
 ./install.sh  # Installs all tools automatically
+```
+
 🛠 Usage
-bash
-Copy
-Edit
+```bash
 ./reconghost.sh -d example.com -o ./scan_results [-w wordlist.txt]
-Flag	Description	Required
+```
+
+⚐ Flag	Description	Required
+```
 -d	Target domain	✅ Yes
 -o	Output directory	✅ Yes
 -w	Custom wordlist path	❌ No
 -h	Show help	❌ No
 -v	Show version	❌ No
 Default wordlist is used if -w is not provided.
+```
 
-You can silence tool output using: > /dev/null 2>&1
+You can silence tool output using: 
+```bash
+./reconghost.sh -d example.com -o ./scan_results [-w wordlist.txt] > /dev/null 2>&1
+```
 
 📂 Output File Structure
 When the scan completes, the following directory structure is generated:
 
-
+```
 scan_results/
 ├── subdomains.txt
 ├── live_hosts.txt
@@ -65,6 +77,7 @@ scan_results/
 ├── screenshots/
 └── nuclei_results.txt
 💡 This helps you organize recon data and import it into reporting tools easily.
+```
 
 📄 License
 This project is licensed under the MIT License.
