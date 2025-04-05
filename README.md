@@ -1,12 +1,17 @@
 # RECON-GHOST
+
 A powerful Bash-based automated reconnaissance toolkit for bug bounty hunters and penetration testers. Includes subdomain enumeration, port scanning, live host detection, fuzzing, and more. 🔍
 
 
 # 🔍 RECON GHOST <img src="screenshot.png" width="50"> 
 
 **Enterprise-Grade Reconnaissance Toolkit**  
->*Developed by [FORTIS SECURITY]*  
+>*Developed by FORTIS SECURITY*  
 
+
+## 📚 Documentation
+
+For detailed installation guides and sample scan results, see the [docs/](/docs/) directory.
 ---
 
 ## 📸 ReconGhost
@@ -14,7 +19,9 @@ A powerful Bash-based automated reconnaissance toolkit for bug bounty hunters an
 
 ---
 
-## ⚙️ Features
+## ⚙️ *Features*
+
+
 - 🛰️ Subdomain Enumeration (Amass + Subfinder)
 - 🔍 Live Host Detection (httpx)
 - 🔌 Port Scanning (Nmap)
@@ -24,7 +31,7 @@ A powerful Bash-based automated reconnaissance toolkit for bug bounty hunters an
 
 ---
 
-## 🔗 Installation
+## 🔗 **Installation**
 
 
 # Clone the repository
@@ -50,15 +57,15 @@ chmod +x install.sh reconghost.sh
 
 
 ## ⚐  Command Flags
-```
+
 | Flag | Description          | Required |
 |------|----------------------|----------|
-| `-d` | Target domain        | ✔ Yes    |
-| `-o` | Output directory     | ✔ Yes    |
+| `-d` | Target domain        | Yes      |
+| `-o` | Output directory     | Yes      |
 | `-w` | Custom wordlist path | No       |
 | `-h` | Show help            | No       |
 | `-v` | Show version         | No       |
-```
+
 
 > ℹ️ Default wordlist is used if `-w` is not specified.  
 
@@ -69,9 +76,10 @@ chmod +x install.sh reconghost.sh
 ./reconghost.sh -d example.com -o ./scan_results [-w wordlist.txt] > /dev/null 2>&1
 ```
 
+---
 
+📂 **Output File Structure**
 
-📂 Output File Structure
 When the scan completes, the following directory structure is generated:
 
 ```
@@ -87,13 +95,13 @@ scan_results/
 
 
 
-📄 License
+📄 *License*
 > This project is licensed under the MIT License.
 
 
 
-🤝 Contribute
-> Feel free to fork, star, and send PRs.
-> Let’s build a powerful recon community together! 
+🤝 *Contribute*
+Feel free to fork, star, and send PRs.
+Let’s build a powerful recon community together! 
 
 
