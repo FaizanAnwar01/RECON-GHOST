@@ -5,14 +5,12 @@ A powerful Bash-based automated reconnaissance toolkit for bug bounty hunters an
 # 🔍 RECON GHOST <img src="screenshot.png" width="50"> 
 
 **Enterprise-Grade Reconnaissance Toolkit**  
-*Developed by [FORTIS SECURITY]*  
-
-![Demo](docs/demo.gif)
+>*Developed by [FORTIS SECURITY]*  
 
 ---
 
-## 📸 Screenshot
-<img src="screenshot.png" width="600">
+## 📸 ReconGhost
+<img src="screenshot.png" width="900">
 
 ---
 
@@ -52,7 +50,7 @@ chmod +x install.sh reconghost.sh
 
 
 ## ⚐  Command Flags
-
+```
 | Flag | Description          | Required |
 |------|----------------------|----------|
 | `-d` | Target domain        | ✔ Yes    |
@@ -60,6 +58,7 @@ chmod +x install.sh reconghost.sh
 | `-w` | Custom wordlist path | No       |
 | `-h` | Show help            | No       |
 | `-v` | Show version         | No       |
+```
 
 > ℹ️ Default wordlist is used if `-w` is not specified.  
 
@@ -96,3 +95,5 @@ scan_results/
 🤝 Contribute
 > Feel free to fork, star, and send PRs.
 > Let’s build a powerful recon community together! 
+
+
