@@ -2,7 +2,7 @@
 A powerful Bash-based automated reconnaissance toolkit for bug bounty hunters and penetration testers. Includes subdomain enumeration, port scanning, live host detection, fuzzing, and more. 🔍
 
 
-# 🔍 RECON GHOST <img src="https://i.imgur.com/JQ1WfYp.png" width="50">  
+# 🔍 RECON GHOST <img src="screenshot.png" width="50"> 
 
 **Enterprise-Grade Reconnaissance Toolkit**  
 *Developed by [FORTIS SECURITY]*  
