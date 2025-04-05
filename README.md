@@ -50,20 +50,27 @@ chmod +x install.sh reconghost.sh
 ./reconghost.sh -d example.com -o ./scan_results [-w wordlist.txt]
 ```
 
-⚐ Flag	Description	Required
-```
--d	Target domain	✅ Yes
--o	Output directory	✅ Yes
--w	Custom wordlist path	❌ No
--h	Show help	❌ No
--v	Show version	❌ No
-Default wordlist is used if -w is not provided.
-```
 
-You can silence tool output using: 
+## ⚐  Command Flags
+
+| Flag | Description          | Required |
+|------|----------------------|----------|
+| `-d` | Target domain        | ✔ Yes    |
+| `-o` | Output directory     | ✔ Yes    |
+| `-w` | Custom wordlist path | No       |
+| `-h` | Show help            | No       |
+| `-v` | Show version         | No       |
+
+> ℹ️ Default wordlist is used if `-w` is not specified.  
+
+
+
+🔇 Silence output:
 ```bash
 ./reconghost.sh -d example.com -o ./scan_results [-w wordlist.txt] > /dev/null 2>&1
 ```
+
+
 
 📂 Output File Structure
 When the scan completes, the following directory structure is generated:
@@ -79,9 +86,13 @@ scan_results/
 💡 This helps you organize recon data and import it into reporting tools easily.
 ```
 
+
+
 📄 License
-This project is licensed under the MIT License.
+> This project is licensed under the MIT License.
+
+
 
 🤝 Contribute
-Feel free to fork, star, and send PRs.
-Let’s build a powerful recon community together! 
+> Feel free to fork, star, and send PRs.
+> Let’s build a powerful recon community together! 
