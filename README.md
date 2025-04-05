@@ -12,15 +12,18 @@ A powerful Bash-based automated reconnaissance toolkit for bug bounty hunters an
 ## 📚 Documentation
 
 For detailed installation guides and sample scan results, see the [docs/](/docs/) directory.
+
+
 ---
 
 ## 📸 ReconGhost
+
 <img src="screenshot.png" width="900">
 
 ---
 
-## ⚙️ *Features*
 
+## ⚙️ *Features*
 
 - 🛰️ Subdomain Enumeration (Amass + Subfinder)
 - 🔍 Live Host Detection (httpx)
@@ -32,7 +35,6 @@ For detailed installation guides and sample scan results, see the [docs/](/docs/
 ---
 
 ## 🔗 **Installation**
-
 
 # Clone the repository
 ```bash
@@ -78,6 +80,7 @@ chmod +x install.sh reconghost.sh
 
 ---
 
+
 📂 **Output File Structure**
 
 When the scan completes, the following directory structure is generated:
@@ -97,9 +100,7 @@ scan_results/
 
 📄 *License*
 > This project is licensed under the MIT License.
-
-
-
+---
 🤝 *Contribute*
 Feel free to fork, star, and send PRs.
 Let’s build a powerful recon community together! 
